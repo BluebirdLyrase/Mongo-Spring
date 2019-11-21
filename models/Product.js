@@ -4,7 +4,7 @@ var Schema       = mongoose.Schema;
 var ProductSchema   = new Schema({
     name: String,
     category : String,
-    price : nubmer
+    price : Number
 });
 
-module.exports = mongoose.model('Bear', BearSchema);
+module.exports = mongoose.model('Product', ProductSchema);
